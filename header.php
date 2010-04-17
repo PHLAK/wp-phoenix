@@ -26,8 +26,8 @@
 <div id="wrap">
 
 	<div id="header" class="clearfix">
-		<div id="logo">
-			<a href="<?php echo(bloginfo('url')); ?>" title="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/phx2600-text.png" alt="PHX2600" /></a>
+		<div id="title">
+			<a href="<?php echo(bloginfo('url')); ?>" title="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>"><?php bloginfo('name'); ?></a>
 		</div>
 		<div id="search">
 			<form action="http://www.phx2600.org/search/" id="cse-search-box">

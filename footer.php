@@ -1,7 +1,7 @@
 
 	<div id="footer" class="clearfix">
 		<div class="logo">
-			<img src="<?php bloginfo('template_url'); ?>/images/phx2600-logo.png" alt="PHX2600 Logo" />
+			<img src="<?php bloginfo('template_url'); ?>/images/wp-logo.png" alt="Powered by, Wordpress" />
 		</div>
 		<div class="left">
 			<p>Theme by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p><br />

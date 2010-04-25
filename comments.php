@@ -25,8 +25,13 @@
 		<div class="commentlist">
 			<?php foreach ($comments as $comment): ?>
 				<div class="comment" id="comment-<?php comment_ID(); ?>">
-					<div class="comment-info">
-						<strong><?php comment_author_link(); ?></strong> on <a href="#comment-<?php comment_ID(); ?>" title=""><?php comment_date('F j, Y'); ?></a> <?php edit_comment_link('Edit',' | ',''); ?>
+					<div class="comment-info clearfix">
+                        <?php echo get_avatar($comment->comment_author_email, $size = '36'); ?>
+                        <div id="comment-author-text" class="clearfix">
+						    <strong><?php comment_author_link(); ?></strong>
+                            <a href="#comment-<?php comment_ID(); ?>" title="" class="comment-date"><?php comment_date('F j, Y'); ?></a>
+                        </div>
+                        <?php edit_comment_link('Edit'); ?>
 					</div>
 					<?php if ($comment->user_id == 1): ?>
 						<div class="comment-image-admin"></div>

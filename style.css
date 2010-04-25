@@ -483,10 +483,36 @@ table {
 
 .comment {
 	margin-bottom: 2em;
-} 
+}
+
+.comment-info {
+    position: relative;
+}
+
+.avatar {
+    display: block;
+    float: left;
+    margin-left: 9px;
+}
+
+#comment-author-text {
+    float: left;
+    margin-left: 5px;
+}
+
+#comment-author-text strong {
+    display: block;
+    margin-bottom: .25em;
+}
+
+#comment-author-text .comment-date {
+    font-size: .75em;
+}
 
 .comment-edit-link {
 	background: transparent url(images/icons/comment_edit.png) no-repeat left center;
+	float: right;
+	margin-top: 1.25em;
 	padding-left: 18px;
 }
 
